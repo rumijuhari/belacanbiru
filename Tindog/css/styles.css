@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff6464;
+    padding: 3% 15% 0;
+    color: white;
+    position: relative;
+
+}
+
+.heading-1{
+   font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.35rem;
+    font-weight: 900;
+    text-shadow: -1px -2px 5px rgba(0,0,0,0.2);   
+}
+
+.apple-logo{
+    width: 5%;
+    padding-bottom: 5px
+}
+
+.google-play-logo{
+    width: 5.5%;  
+    padding-bottom: 4px
+
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2.5rem
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-family: 'Montserrat Light'; 
+}
+
+/*Download Buttons*/
+
+.download-button{
+    margin: 5% 3% 5% 0
+    
+}
+
+/*Tittle-Image*/
+
+.title-image{
+    width: 90%;
+    transform: rotate(25deg);
+    margin-left: 0;
+    position: relative;
+   
+}
+
+/*Feature List*/
+
+
+#features{
+    width: 100%;
+   margin: auto;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1
+}
+
+
+.individual-feature{
+    
+    display:inline-block;
+    text-align: center;
+    margin: 7% 0;
+    padding: 0;
+
+}
+
+.feature-icon{
+    padding-bottom: 25px;
+    font-size: 55px;
+    color:#e43f5a
+        
+}
+
+.feature-icon:hover{
+    color:#f40552
+}
+
+.feature-title{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #414141
+    
+}
+
+/*Testimonials*/
+
+#testimonials{
+    background-color: #ffb99a;
+    font-family: 'Montserrat', sans-serif;  
+    padding: 10% 10% 5%;
+    text-align: center
+}
+
+.testimonials-title{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 5% 20%;
+    text-align: center;
+    line-height: 3.5rem;
+    text-shadow: -1px -1px 5px rgba(0,0,0,0.2);   
+}
+
+.dog-profile-box{
+
+}
+
+.dog-profile{
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 0 ; 
+    width: 100px;
+    
+    }
+    
+
+
+
+/*Press*/
+
+#press{
+    background-color: #ffb99a;
+    text-align: center;
+    padding-bottom: 6%
+    
+}   
+
+.press-logo{
+    width: 12%;
+    margin: 30px 35px
+}
+
+/*Pricing*/
+
+#pricing{
+    padding: 10% 5%;
+}
+
+.price-section-title{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-shadow: -1px -1px 4px rgba(0,0,0,0.1); 
+}
+
+.price{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+     text-shadow: -1px -1px 4px rgba(0,0,0,0.1); 
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    padding: 5%
+}
+
+.pricing-title{
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+/*CTA*/
+
+#cta{
+    background-color:#ff6464;
+    height: 350px;
+}
+
+.cta-title{
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 900;
+    text-align: center;
+    padding: 95px;
+}
+
+.download-btn{
+    margin: 0 20px
+}
+
+/*Footer*/
+
+#footer{
+    background-color: #FFFFFF;
+    height: 150px;
+    text-align: center;
+    padding-top: 3.5%;
+    color:  #8B8B8B;
+    
+
+}
+
+.cta-icon{
+    letter-spacing: 7px;
+    font-size: 20px
+    
+}
+
+.fa-twitter:hover{
+    color: #00acee
+}
+
+.fa-facebook:hover{
+    color:#3b5998
+}
+
+.fa-instagram:hover{
+    color: #3f729b
+}
+
+.fa-envelope:hover{
+    color: #FF5E61
+}
+@media (max-width:1024px){
+    .heading-1{
+        text-align: center
+    }
+    .title-image{
+        transform: rotate(0deg);
+        margin: auto
+    }
+    
+    .div-col-lg-6{
+        margin: auto;
+        position: relative;
+        left: 2%
+    }
+    
+    .download-button{
+        display: block;
+        position: relative;
+        align-content: center
+    }
+    
+    .col-lg-4{
+        margin-top: 3% 
+    }
+    
+    .copyright{
+        font-size: 12px
+    }
+}
+
+
